@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-22T22:06:17 BDT" name="Suite" finished-at="2023-09-22T22:07:11 BDT" duration-ms="53974">
+    <groups>
+    </groups>
+    <test started-at="2023-09-22T22:06:17 BDT" name="Article create Test" finished-at="2023-09-22T22:07:11 BDT" duration-ms="53974">
+      <class name="com.WMC.login.LoginTest">
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.WMC.login.LoginTest@40ef3420]" started-at="2023-09-22T22:06:03 BDT" name="setUP" finished-at="2023-09-22T22:06:17 BDT" duration-ms="14200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="login()[pri:1, instance:com.WMC.login.LoginTest@40ef3420]" started-at="2023-09-22T22:06:17 BDT" name="login" finished-at="2023-09-22T22:06:29 BDT" duration-ms="11461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.WMC.login.LoginTest@40ef3420]" started-at="2023-09-22T22:07:11 BDT" name="tearDown" finished-at="2023-09-22T22:07:11 BDT" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.WMC.login.LoginTest -->
+      <class name="com.WMC.testcasesProduct.AddArticle">
+        <test-method signature="goArticlesPage()[pri:2, instance:com.WMC.testcasesProduct.AddArticle@384ad17b]" started-at="2023-09-22T22:06:29 BDT" name="goArticlesPage" finished-at="2023-09-22T22:07:11 BDT" duration-ms="42485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goArticlesPage -->
+      </class> <!-- com.WMC.testcasesProduct.AddArticle -->
+    </test> <!-- Article create Test -->
+  </suite> <!-- Suite -->
+</testng-results>

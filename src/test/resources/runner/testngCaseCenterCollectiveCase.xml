@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	<listeners>
+
+		<listener class-name="utils.ITestListenerDemo" />
+
+	</listeners>
+	
+  <test name="Case Center Case creation For Collective Invoice">
+	  
+    <classes>
+		
+	  <class name="com.IPEX.login.CaseCenterLoginTest"/>
+	  <class name="com.IPEX.testcasesForUploadCaseCollectiveInvoice.CaseCenterCollectiveInvoiceCase"/>
+	  <class name="com.IPEX.testcasesForUploadCaseCollectiveInvoice.UploadCaseCreate"/>
+	  <class name="com.IPEX.testcasesForUploadCaseCollectiveInvoice.UploadInspectorAction"/>
+      <class name="com.IPEX.testcasesForUploadCaseCollectiveInvoice.UploadAdminReportSend"/>
+	
+      
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

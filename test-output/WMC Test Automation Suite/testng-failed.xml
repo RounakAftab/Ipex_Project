@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [WMC Test Automation Suite]">
+  <test thread-count="5" name="WMC Login Test(failed)">
+    <classes>
+      <class name="com.WMC.testcases.AddTask">
+        <methods>
+          <include name="tearDown"/>
+          <include name="goContactPage"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.WMC.testcases.AddTask -->
+    </classes>
+  </test> <!-- WMC Login Test(failed) -->
+</suite> <!-- Failed suite [WMC Test Automation Suite] -->

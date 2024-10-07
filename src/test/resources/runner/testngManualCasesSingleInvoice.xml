@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+	
+	<listeners>
+		
+		<listener class-name="utils.ITestListenerDemo" />
+			
+	</listeners>
+	
+  <test name="ManualCaseCreateTest">
+	  
+    <classes>
+	  <class name="com.IPEX.login.AdminLoginTest"/>
+	  <class name="com.IPEX.testcasesForManualCaseCreateSingleInvoice.ManualCase"/>
+      <class name="com.IPEX.testcasesForManualCaseCreateSingleInvoice.InspectorActionManualCase"/>
+      <class name="com.IPEX.testcasesForManualCaseCreateSingleInvoice.AdminReportSend"/>
+    </classes>
+    
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
