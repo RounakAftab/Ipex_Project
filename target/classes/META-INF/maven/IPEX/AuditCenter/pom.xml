@@ -23,7 +23,7 @@
 
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>IpexProject/src/test/resources/runner/testngCaseCenterSingleCase.xml</suiteXmlFile>
+							<suiteXmlFile>src/test/resources/runner/testngCaseCenterSingleCase.xml</suiteXmlFile>
 
 						</suiteXmlFiles>
 					</configuration>

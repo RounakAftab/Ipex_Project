@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="utils.ITestListenerDemo"/>
+  </listeners>
+  <test thread-count="5" name="Case Center Case creation For Single Invoice(failed)" verbose="0">
+    <classes>
+      <class name="com.IPEX.testcasesForUploadCaseSingleInvoice.UploadAdminReportSend">
+        <methods>
+          <include name="setUP"/>
+          <include name="tearDown"/>
+          <include name="adminSendInvoice"/>
+        </methods>
+      </class> <!-- com.IPEX.testcasesForUploadCaseSingleInvoice.UploadAdminReportSend -->
+      <class name="com.IPEX.testcasesForUploadCaseSingleInvoice.CaseCenterSingleInvoiceCase">
+        <methods>
+          <include name="setUP"/>
+          <include name="tearDown"/>
+          <include name="AdminloginPerform"/>
+        </methods>
+      </class> <!-- com.IPEX.testcasesForUploadCaseSingleInvoice.CaseCenterSingleInvoiceCase -->
+      <class name="com.IPEX.login.CaseCenterLoginTest">
+        <methods>
+          <include name="setUP"/>
+          <include name="tearDown"/>
+          <include name="AdminloginPerform"/>
+        </methods>
+      </class> <!-- com.IPEX.login.CaseCenterLoginTest -->
+    </classes>
+  </test> <!-- Case Center Case creation For Single Invoice(failed) -->
+</suite> <!-- Failed suite [Suite] -->
