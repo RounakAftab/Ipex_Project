@@ -98,7 +98,7 @@ public class UploadAdminReportSend extends TestBase {
 
                 if ("CLOSE".equalsIgnoreCase(getInvoiceType)) {
                     logger.info("Case is successfully CLOSED and invoice is sent.");
-                    Assert.assertEquals("CLOSE", getInvoiceType);
+                    Assert.assertEquals("CLOSED", getInvoiceType);
 
                     WebElement addMoreScroll3 = driver.findElement(By.xpath(OR.getProperty("moreScrool")));
                     jse2.executeScript("arguments[0].scrollIntoView(true);", addMoreScroll3);

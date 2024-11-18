@@ -9,13 +9,36 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">ManualCaseCreateTest</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">236,790</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Contact_Create_Test</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">64,868</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ManualCaseCreateTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.IPEX.login.AdminLoginTest</td><td><a href="#m0">AdminloginPerform</a></td><td rowspan="1">1728360404509</td><td rowspan="1">10526</td></tr><tr class="passedodd"><td rowspan="1">com.IPEX.testcasesForManualCaseCreateSingleInvoice.AdminReportSend</td><td><a href="#m1">adminSendInvoice</a></td><td rowspan="1">1728360585742</td><td rowspan="1">55526</td></tr><tr class="passedeven"><td rowspan="1">com.IPEX.testcasesForManualCaseCreateSingleInvoice.InspectorActionManualCase</td><td><a href="#m2">InspectorAction</a></td><td rowspan="1">1728360478402</td><td rowspan="1">107334</td></tr><tr class="passedodd"><td rowspan="1">com.IPEX.testcasesForManualCaseCreateSingleInvoice.ManualCase</td><td><a href="#m3">createManualCase</a></td><td rowspan="1">1728360415141</td><td rowspan="1">63254</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Contact_Create_Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.IPEX.testcasesContact.AddContact</td><td><a href="#m0">goContactPage</a></td><td rowspan="1">1730870414956</td><td rowspan="1">3</td></tr><tr class="failedodd"><td rowspan="1">com.IPEX.testcasesContact.DeleteContact</td><td><a href="#m1">contactDelete</a></td><td rowspan="1">1730870467245</td><td rowspan="1">2015</td></tr><tr class="failedeven"><td rowspan="1">com.IPEX.testcasesContact.UpdateContact</td><td><a href="#m2">contactUpdate</a></td><td rowspan="1">1730870414965</td><td rowspan="1">52269</td></tr><tr><th colspan="4">Contact_Create_Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.IPEX.login.AdminLoginTest</td><td><a href="#m3">AdminloginPerform</a></td><td rowspan="1">1730870404422</td><td rowspan="1">10463</td></tr></tbody>
 </table>
-<h2>ManualCaseCreateTest</h2><h3 id="m0">com.IPEX.login.AdminLoginTest#AdminloginPerform</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.IPEX.testcasesForManualCaseCreateSingleInvoice.AdminReportSend#adminSendInvoice</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.IPEX.testcasesForManualCaseCreateSingleInvoice.InspectorActionManualCase#InspectorAction</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.IPEX.testcasesForManualCaseCreateSingleInvoice.ManualCase#createManualCase</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Contact_Create_Test</h2><h3 id="m0">com.IPEX.testcasesContact.AddContact#goContactPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Cannot find elements when the selector is null
+	at org.openqa.selenium.internal.Require$ArgumentChecker.nonNull(Require.java:207)
+	at org.openqa.selenium.By$ByCssSelector.&lt;init&gt;(By.java:328)
+	at org.openqa.selenium.By.cssSelector(By.java:112)
+	at com.IPEX.testcasesContact.AddContact.goContactPage(AddContact.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.IPEX.testcasesContact.DeleteContact#contactDelete</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.IllegalArgumentException: Cannot find elements when the link text is null.
+	at org.openqa.selenium.internal.Require$ArgumentChecker.nonNull(Require.java:207)
+	at org.openqa.selenium.By$ByLinkText.&lt;init&gt;(By.java:207)
+	at org.openqa.selenium.By.linkText(By.java:57)
+	at com.IPEX.testcasesContact.DeleteContact.contactDelete(DeleteContact.java:16)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.IPEX.testcasesContact.UpdateContact#contactUpdate</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.linkText: Edit
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at com.IPEX.testcasesContact.UpdateContact.contactUpdate(UpdateContact.java:17)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.IPEX.login.AdminLoginTest#AdminloginPerform</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

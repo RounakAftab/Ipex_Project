@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.IPEX.testcasesForCaseCreate.InspectorActionManualCase">
+      <class name="com.IPEX.testcasesFileConvert.CaseCenterFileConvert">
         <methods>
           <include name="setUP"/>
           <include name="tearDown"/>
-          <include name="InspectorAction"/>
+          <include name="AdminloginPerform"/>
         </methods>
-      </class> <!-- com.IPEX.testcasesForCaseCreate.InspectorActionManualCase -->
+      </class> <!-- com.IPEX.testcasesFileConvert.CaseCenterFileConvert -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

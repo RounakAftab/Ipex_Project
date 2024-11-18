@@ -1,9 +1,12 @@
 D:\IPEX\Automation\Ipex_Automation\Ipex_Project\src\test\java\com\IPEX\base\TestBase.java
 D:\IPEX\Automation\Ipex_Automation\Ipex_Project\src\test\java\com\IPEX\login\AdminLoginTest.java
 D:\IPEX\Automation\Ipex_Automation\Ipex_Project\src\test\java\com\IPEX\login\CaseCenterLoginTest.java
+D:\IPEX\Automation\Ipex_Automation\Ipex_Project\src\test\java\com\IPEX\testcasesCaseCANCELLATION\ManualCase.java
 D:\IPEX\Automation\Ipex_Automation\Ipex_Project\src\test\java\com\IPEX\testcasesContact\AddContact.java
 D:\IPEX\Automation\Ipex_Automation\Ipex_Project\src\test\java\com\IPEX\testcasesContact\DeleteContact.java
 D:\IPEX\Automation\Ipex_Automation\Ipex_Project\src\test\java\com\IPEX\testcasesContact\UpdateContact.java
+D:\IPEX\Automation\Ipex_Automation\Ipex_Project\src\test\java\com\IPEX\testcasesFileConvert\CaseCenterFileConvert.java
+D:\IPEX\Automation\Ipex_Automation\Ipex_Project\src\test\java\com\IPEX\testcasesFileConvert\UpCaseFileConvert.java
 D:\IPEX\Automation\Ipex_Automation\Ipex_Project\src\test\java\com\IPEX\testcasesForMailedCaseCreateCollectiveInvoice\AdminReportSendForMailedCase.java
 D:\IPEX\Automation\Ipex_Automation\Ipex_Project\src\test\java\com\IPEX\testcasesForMailedCaseCreateCollectiveInvoice\InspectorActionMailedCase.java
 D:\IPEX\Automation\Ipex_Automation\Ipex_Project\src\test\java\com\IPEX\testcasesForMailedCaseCreateCollectiveInvoice\MailedCaseCI.java

@@ -6,13 +6,6 @@
   </listeners>
   <test thread-count="5" name="Case Center Case creation For Single Invoice(failed)" verbose="0">
     <classes>
-      <class name="com.IPEX.testcasesForUploadCaseSingleInvoice.UploadAdminReportSend">
-        <methods>
-          <include name="setUP"/>
-          <include name="tearDown"/>
-          <include name="adminSendInvoice"/>
-        </methods>
-      </class> <!-- com.IPEX.testcasesForUploadCaseSingleInvoice.UploadAdminReportSend -->
       <class name="com.IPEX.testcasesForUploadCaseSingleInvoice.CaseCenterSingleInvoiceCase">
         <methods>
           <include name="setUP"/>
@@ -27,6 +20,13 @@
           <include name="AdminloginPerform"/>
         </methods>
       </class> <!-- com.IPEX.login.CaseCenterLoginTest -->
+      <class name="com.IPEX.testcasesForUploadCaseSingleInvoice.UploadAdminReportSend">
+        <methods>
+          <include name="setUP"/>
+          <include name="tearDown"/>
+          <include name="adminSendInvoice"/>
+        </methods>
+      </class> <!-- com.IPEX.testcasesForUploadCaseSingleInvoice.UploadAdminReportSend -->
     </classes>
   </test> <!-- Case Center Case creation For Single Invoice(failed) -->
 </suite> <!-- Failed suite [Suite] -->

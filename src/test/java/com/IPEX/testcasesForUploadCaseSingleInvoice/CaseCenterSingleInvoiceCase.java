@@ -47,7 +47,7 @@ public class CaseCenterSingleInvoiceCase extends TestBase {
 	                randomText.append(randomChar);
 	            }
 	            
-	         String ClaimInsuNumber = "Case-Center-Single-" + randomText;
+	         String ClaimInsuNumber = "Single-Upload" + randomText;
 	            
 			WebElement cnI= driver.findElement(By.cssSelector(OR.getProperty("claimNumberInsu")));
 			cnI.sendKeys(ClaimInsuNumber);
@@ -130,27 +130,28 @@ public class CaseCenterSingleInvoiceCase extends TestBase {
 			driver.findElement(By.cssSelector(OR.getProperty("PCity"))).sendKeys(LoginData.getProperty("pCity"));
 			ExtentReporterNG.addStep("Data input in the CITY field");
 			System.out.println("Data input in the CITY field");
-
+			
 			//Add Upload Files
 			driver.findElement(By.xpath(OR.getProperty("PUloadModal"))).click();
 			Thread.sleep(1000);
 
-			File documentPath = new File("Files/ipx_test_document_0b4a5daa-1538-4b3b-84bd-3291a0c8026f.pdf");
+			//Add Upload Files
+			File documentPath = new File("Files/ipx_test_document_706fbefd-1539-48c1-a53b-18cea176a5af.pdf");
 			driver.findElement(By.xpath("//input[@accept=\".PNG,.png,.jpg,.jpeg,.pdf,.doc,.rtf\"]")).sendKeys(documentPath.getAbsolutePath());
 			Thread.sleep(2000);
 
-			WebElement element = driver.findElement(By.xpath(OR.getProperty("pDocumentType")));
+			WebElement element = driver.findElement(By.cssSelector(OR.getProperty("pDocumentType1")));
 			Actions actions = new Actions(driver);
 			actions.moveToElement(element).click().perform();
 			Thread.sleep(1000);
 
 			driver.findElement(By.xpath(OR.getProperty("pOfferClick"))).click();
 			Thread.sleep(2000);
-			ExtentReporterNG.addStep("Document Upload done with Offer Type");
-			System.out.println("Successfully Document Upload done with Offer Type");
+			ExtentReporterNG.addStep("Document Doc Upload done with Offer Type");
+			System.out.println("Successfully Doc Document Upload done with Offer Type");
 
 			driver.findElement(By.xpath(OR.getProperty("pSubmitCase"))).click();
-			Thread.sleep(7000);
+			Thread.sleep(9000);
 			logger.info("Case Center case created successfully.");
 			ExtentReporterNG.addStep("Case Center case created successfully.");
 			System.out.println("Case Center case created successfully.");

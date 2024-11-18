@@ -65,11 +65,11 @@ public class UploadCaseCreate extends TestBase {
             driver.findElement(By.cssSelector(OR.getProperty("InspectorFieldClick"))).click();
             WebElement inspectorNameType1 = driver.findElement(By.cssSelector(OR.getProperty("InspectorNameWrite")));
             inspectorNameType1.click();
-            inspectorNameType1.sendKeys("New");
+            inspectorNameType1.sendKeys("New Stage");
             Thread.sleep(1000);
 
             List<WebElement> suggList1 = driver.findElements(By.cssSelector(OR.getProperty("InspSelectMail")));
-            Thread.sleep(2000);
+            Thread.sleep(3000);
             for (WebElement e1 : suggList1) {
                 if (e1.getText().equalsIgnoreCase("New Stage Inspector")) {
                     e1.click();
@@ -193,7 +193,8 @@ public class UploadCaseCreate extends TestBase {
             List<WebElement> tradeCollect = driver.findElements(By.xpath(OR.getProperty("TradeLst")));
             Thread.sleep(2000);
             for (WebElement tradeNme : tradeCollect) {
-                if (tradeNme.getText().equalsIgnoreCase("Civil engineering and earthworks")) {
+            	Thread.sleep(2000);
+            	if (tradeNme.getText().equalsIgnoreCase("Beton- und Stahlbetonarbeiten")) {
                     tradeNme.click();
                     break;
                 }

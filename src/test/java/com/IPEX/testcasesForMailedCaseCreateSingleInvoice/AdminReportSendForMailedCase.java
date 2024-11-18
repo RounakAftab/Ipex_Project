@@ -96,16 +96,16 @@ public class AdminReportSendForMailedCase extends TestBase {
 
                 String getInvoiceType = driver.findElement(By.xpath(OR.getProperty("qualityStatus"))).getText();
 
-                if ("CLOSE".equalsIgnoreCase(getInvoiceType)) {
+                if ("CLOSED".equalsIgnoreCase(getInvoiceType)) {
                     logger.info("Case is successfully CLOSED and invoice is sent.");
-                    Assert.assertEquals("CLOSE", getInvoiceType);
+                    Assert.assertEquals("CLOSED", getInvoiceType);
 
                     WebElement addMoreScroll3 = driver.findElement(By.xpath(OR.getProperty("moreScrool")));
                     jse2.executeScript("arguments[0].scrollIntoView(true);", addMoreScroll3);
                     Thread.sleep(2000);
 
                 } else {
-                    Assert.assertFalse("CLOSE".equalsIgnoreCase(getInvoiceType));
+                    Assert.assertFalse("CLOSED".equalsIgnoreCase(getInvoiceType));
                 }
 
             } else {

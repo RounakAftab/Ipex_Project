@@ -180,7 +180,8 @@ public class ManualCase extends TestBase {
             List<WebElement> tradeCollect = driver.findElements(By.xpath(OR.getProperty("TradeLst")));
             Thread.sleep(2000);
             for (WebElement tradeNme : tradeCollect) {
-                if (tradeNme.getText().equalsIgnoreCase("Civil engineering and earthworks")) {
+            	Thread.sleep(2000);
+                if (tradeNme.getText().equalsIgnoreCase("Beton- und Stahlbetonarbeiten")) {
                     tradeNme.click();
                     break;
                 }
