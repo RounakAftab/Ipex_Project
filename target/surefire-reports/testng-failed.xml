@@ -4,29 +4,15 @@
   <listeners>
     <listener class-name="utils.ITestListenerDemo"/>
   </listeners>
-  <test thread-count="5" name="Case Center Case creation For Single Invoice(failed)" verbose="0">
+  <test thread-count="5" name="ManualCaseCreateTest(failed)" verbose="0">
     <classes>
-      <class name="com.IPEX.testcasesForUploadCaseSingleInvoice.CaseCenterSingleInvoiceCase">
+      <class name="com.IPEX.testcasesForManualCaseCreateCollectiveInvoice.AdminReportSend">
         <methods>
           <include name="setUP"/>
-          <include name="tearDown"/>
-          <include name="AdminloginPerform"/>
-        </methods>
-      </class> <!-- com.IPEX.testcasesForUploadCaseSingleInvoice.CaseCenterSingleInvoiceCase -->
-      <class name="com.IPEX.login.CaseCenterLoginTest">
-        <methods>
-          <include name="setUP"/>
-          <include name="tearDown"/>
-          <include name="AdminloginPerform"/>
-        </methods>
-      </class> <!-- com.IPEX.login.CaseCenterLoginTest -->
-      <class name="com.IPEX.testcasesForUploadCaseSingleInvoice.UploadAdminReportSend">
-        <methods>
-          <include name="setUP"/>
-          <include name="tearDown"/>
           <include name="adminSendInvoice"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- com.IPEX.testcasesForUploadCaseSingleInvoice.UploadAdminReportSend -->
+      </class> <!-- com.IPEX.testcasesForManualCaseCreateCollectiveInvoice.AdminReportSend -->
     </classes>
-  </test> <!-- Case Center Case creation For Single Invoice(failed) -->
+  </test> <!-- ManualCaseCreateTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

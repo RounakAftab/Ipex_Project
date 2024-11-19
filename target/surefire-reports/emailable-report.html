@@ -9,19 +9,19 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Case Center Case creation For Single Invoice</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">14,987</td><td></td><td></td></tr>
+<tr><td><a href="#t0">ManualCaseCreateTest</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">353,481</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Case Center Case creation For Single Invoice &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.IPEX.login.CaseCenterLoginTest</td><td><a href="#m0">AdminloginPerform</a></td><td rowspan="1">1731942959552</td><td rowspan="1">14804</td></tr><tr class="failedodd"><td rowspan="1">com.IPEX.testcasesForUploadCaseSingleInvoice.CaseCenterSingleInvoiceCase</td><td><a href="#m1">AdminloginPerform</a></td><td rowspan="1">1731942974467</td><td rowspan="1">5</td></tr><tr class="failedeven"><td rowspan="1">com.IPEX.testcasesForUploadCaseSingleInvoice.UploadAdminReportSend</td><td><a href="#m2">adminSendInvoice</a></td><td rowspan="1">1731942974496</td><td rowspan="1">8</td></tr><tr><th colspan="4">Case Center Case creation For Single Invoice &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.IPEX.testcasesForUploadCaseSingleInvoice.CaseCenterSingleInvoiceCase</td><td><a href="#m3">createManualCase</a></td><td rowspan="1">1731942974455</td><td rowspan="1">10</td></tr><tr class="passedodd"><td rowspan="1">com.IPEX.testcasesForUploadCaseSingleInvoice.UploadCaseCreate</td><td><a href="#m4">createManualCase</a></td><td rowspan="1">1731942974478</td><td rowspan="1">6</td></tr><tr class="passedeven"><td rowspan="1">com.IPEX.testcasesForUploadCaseSingleInvoice.UploadInspectorAction</td><td><a href="#m5">InspectorAction</a></td><td rowspan="1">1731942974485</td><td rowspan="1">10</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">ManualCaseCreateTest &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.IPEX.testcasesForManualCaseCreateCollectiveInvoice.AdminReportSend</td><td><a href="#m0">adminSendInvoice</a></td><td rowspan="1">1731997300098</td><td rowspan="1">121064</td></tr><tr><th colspan="4">ManualCaseCreateTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.IPEX.login.AdminLoginTest</td><td><a href="#m1">AdminloginPerform</a></td><td rowspan="1">1731997067715</td><td rowspan="1">10498</td></tr><tr class="passedodd"><td rowspan="1">com.IPEX.testcasesForManualCaseCreateCollectiveInvoice.InspectorActionManualCase</td><td><a href="#m2">InspectorAction</a></td><td rowspan="1">1731997142289</td><td rowspan="1">157809</td></tr><tr class="passedeven"><td rowspan="1">com.IPEX.testcasesForManualCaseCreateCollectiveInvoice.ManualCase</td><td><a href="#m3">createManualCase</a></td><td rowspan="1">1731997078309</td><td rowspan="1">63971</td></tr></tbody>
 </table>
-<h2>Case Center Case creation For Single Invoice</h2><h3 id="m0">com.IPEX.login.CaseCenterLoginTest#AdminloginPerform</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
+<h2>ManualCaseCreateTest</h2><h3 id="m0">com.IPEX.testcasesForManualCaseCreateCollectiveInvoice.AdminReportSend#adminSendInvoice</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#mat\-radio\-4&quot;}
   (Session info: chrome=130.0.6723.117)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c285737a0c7304503c6d04d72feb3d24, findElement {using=css selector, value=[name=&apos;email&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52586}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52586/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c285737a0c7304503c6d04d72feb3d24
+Command: [eac0eac0c68bd5ca208dc3b33734d5e9, findElement {using=id, value=mat-radio-4}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57295}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57295/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: eac0eac0c68bd5ca208dc3b33734d5e9
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -33,54 +33,11 @@ Session ID: c285737a0c7304503c6d04d72feb3d24
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at com.IPEX.login.CaseCenterLoginTest.AdminloginPerform(CaseCenterLoginTest.java:25)
+	at com.IPEX.testcasesForManualCaseCreateCollectiveInvoice.AdminReportSend.adminSendInvoice(AdminReportSend.java:84)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 ... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.IPEX.testcasesForUploadCaseSingleInvoice.CaseCenterSingleInvoiceCase#AdminloginPerform</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.117)
-Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c285737a0c7304503c6d04d72feb3d24, get {url=https://ipex-audit-center.selisestage.com/}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52586}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52586/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c285737a0c7304503c6d04d72feb3d24
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:300)
-	at com.IPEX.testcasesForUploadCaseSingleInvoice.CaseCenterSingleInvoiceCase.AdminloginPerform(CaseCenterSingleInvoiceCase.java:171)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.IPEX.testcasesForUploadCaseSingleInvoice.UploadAdminReportSend#adminSendInvoice</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=130.0.6723.117)
-Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [c285737a0c7304503c6d04d72feb3d24, findElement {using=id, value=am-1363}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 130.0.6723.117, chrome: {chromedriverVersion: 130.0.6723.116 (6ac35f94ae3..., userDataDir: C:\Users\pc\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52586}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52586/devtoo..., se:cdpVersion: 130.0.6723.117, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: c285737a0c7304503c6d04d72feb3d24
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at com.IPEX.testcasesForUploadCaseSingleInvoice.UploadAdminReportSend.adminSendInvoice(UploadAdminReportSend.java:28)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.IPEX.testcasesForUploadCaseSingleInvoice.CaseCenterSingleInvoiceCase#createManualCase</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.IPEX.testcasesForUploadCaseSingleInvoice.UploadCaseCreate#createManualCase</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.IPEX.testcasesForUploadCaseSingleInvoice.UploadInspectorAction#InspectorAction</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.IPEX.login.AdminLoginTest#AdminloginPerform</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.IPEX.testcasesForManualCaseCreateCollectiveInvoice.InspectorActionManualCase#InspectorAction</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.IPEX.testcasesForManualCaseCreateCollectiveInvoice.ManualCase#createManualCase</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

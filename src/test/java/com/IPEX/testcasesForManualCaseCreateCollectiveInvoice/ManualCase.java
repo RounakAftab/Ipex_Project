@@ -226,7 +226,7 @@ public class ManualCase extends TestBase {
             ExtentReporterNG.addStep("Item Add Done");
             driver.findElement(By.cssSelector(OR.getProperty("SaveButton"))).click();
 
-            Thread.sleep(8000);
+            Thread.sleep(10000);
 
             logger.info("Manual case created successfully.");
             ExtentReporterNG.addStep("Case Save Successfully");

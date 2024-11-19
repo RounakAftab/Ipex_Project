@@ -4,29 +4,15 @@
   <listeners>
     <listener class-name="utils.ITestListenerDemo"/>
   </listeners>
-  <test thread-count="5" name="Contact_Create_Test(failed)">
+  <test thread-count="5" name="ManualCaseCreateTest(failed)">
     <classes>
-      <class name="com.IPEX.testcasesContact.AddContact">
+      <class name="com.IPEX.testcasesForManualCaseCreateCollectiveInvoice.AdminReportSend">
         <methods>
+          <include name="adminSendInvoice"/>
           <include name="setUP"/>
           <include name="tearDown"/>
-          <include name="goContactPage"/>
         </methods>
-      </class> <!-- com.IPEX.testcasesContact.AddContact -->
-      <class name="com.IPEX.testcasesContact.UpdateContact">
-        <methods>
-          <include name="setUP"/>
-          <include name="tearDown"/>
-          <include name="contactUpdate"/>
-        </methods>
-      </class> <!-- com.IPEX.testcasesContact.UpdateContact -->
-      <class name="com.IPEX.testcasesContact.DeleteContact">
-        <methods>
-          <include name="setUP"/>
-          <include name="tearDown"/>
-          <include name="contactDelete"/>
-        </methods>
-      </class> <!-- com.IPEX.testcasesContact.DeleteContact -->
+      </class> <!-- com.IPEX.testcasesForManualCaseCreateCollectiveInvoice.AdminReportSend -->
     </classes>
-  </test> <!-- Contact_Create_Test(failed) -->
+  </test> <!-- ManualCaseCreateTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->
